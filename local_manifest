@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<manifest>
+
+<!-- Tracking & Remote -->
+
+  <remote name="track" fetch="https://github.com/SonJay" />
+
+<!-- Trees -->
+
+ <project path="device/redmi/rosemary" name="device_redmi_rosemary" remote="track" revision="lineage-19.1" />
+
+ <project path="device/redmi/rosemary-firmware" name="android_device_redmi_rosemary-firmware" remote="track" revision="eleven" />
+
+ 
+
+ <project path="vendor/redmi/rosemary" name="android_vendor_redmi_rosemary" remote="track" revision="lineage-19.1" />
+
+ 
+
+ <project path="kernel/redmi/rosemary" name="android_kernel_redmi_rosemary" remote="track" revision="lineage-19.1" />
+
+ <project path="vendor/mediatek/interfaces" name="vendor_mediatek_interfaces" remote="track" revision="twelve" />
+
+ <project path="device/mediatek/sepolicy_vndr" name="device_mediatek_sepolicy_vndr" remote="track" revision="twelve" />
+
+ <project path="vendor/mediatek/opensource" name="vendor_mediatek-opensource" remote="track" revision="twelve" />
+
+ 
+
+ <project path="hardware/xiaomi" name="kscope_hardware_xiaomi" remote="track" revision="sunflowerleaf" />
+
+</manifest>
