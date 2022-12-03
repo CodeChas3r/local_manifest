@@ -10,9 +10,9 @@
 
  <project path="device/redmi/rosemary" name="device_redmi_rosemary" remote="track" revision="lineage-19.1" />
 
- <project path="vendor/redmi/rosemary" name="vendor_redmi_rosemary" remote="track" revision="lineage-19.1" />
+ <project path="vendor/redmi/rosemary" name="vendor_redmi_rosemary" remote="track" revision="twelve" />
 
- <project path="kernel/redmi/rosemary" name="android_kernel_redmi_rosemary" remote="track" revision="lineage-19.1" />
+ <project path="kernel/redmi/rosemary" name="kernel_redmi_rosemary" remote="track" revision="android-12-stable" />
 
  <project path="vendor/mediatek/interfaces" name="vendor_mediatek_interfaces" remote="track" revision="twelve" />
 
