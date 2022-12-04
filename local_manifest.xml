@@ -6,20 +6,20 @@
 
   <remote name="track" fetch="https://github.com/uigaming1997" />
 
-<!-- Trees -->
+<!-- Device Trees -->
 
- <project path="device/redmi/rosemary" name="device_redmi_rosemary" remote="track" revision="lineage-19.1" />
+ <project path="device/redmi/rosemary" name="device_redmi_rosemary.git" remote="track" revision="lineage-19.1" />
 
- <project path="vendor/redmi/rosemary" name="vendor_redmi_rosemary" remote="track" revision="twelve" />
+ <project path="vendor/redmi/rosemary" name="vendor_redmi_rosemary.git" remote="track" revision="twelve" />
 
- <project path="kernel/redmi/rosemary" name="kernel_redmi_rosemary" remote="track" revision="android-12-stable" />
+ <project path="kernel/redmi/rosemary" name="android_kernel_redmi_rosemary.git" remote="track" revision="lineage-19.1" />
 
- <project path="vendor/mediatek/interfaces" name="vendor_mediatek_interfaces" remote="track" revision="twelve" />
+ <project path="vendor/mediatek/interfaces" name="vendor_mediatek_interfaces.git" remote="track" revision="twelve" />
 
- <project path="device/mediatek/sepolicy_vndr" name="device_mediatek_sepolicy_vndr" remote="track" revision="twelve" />
+ <project path="device/mediatek/sepolicy_vndr" name="device_mediatek_sepolicy_vndr.git" remote="track" revision="twelve" />
 
- <project path="vendor/mediatek/opensource" name="vendor_mediatek-opensource" remote="track" revision="twelve" />
+ <project path="vendor/mediatek/opensource" name="vendor_mediatek-opensource.git" remote="track" revision="twelve" />
 
- <project path="hardware/xiaomi" name="kscope_hardware_xiaomi" remote="track" revision="sunflowerleaf" />
+ <project path="hardware/xiaomi" name="kscope_hardware_xiaomi.git" remote="track" revision="sunflowerleaf" />
 
 </manifest>
