@@ -2,7 +2,7 @@
 
 <manifest>
 
-<!-- Tracking & Remote -->
+<!-- Remote & Tracking -->
 
   <remote name="track" fetch="https://github.com/uigaming1997" />
 
