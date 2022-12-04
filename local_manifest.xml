@@ -4,24 +4,42 @@
 
 <!-- Remote & Tracking -->
 
-  <remote name="track" fetch="https://github.com/uigaming1997" />
+  <remote name="track" 
+   fetch="https://github.com/uigaming1997" />
 
 <!-- Device Trees -->
 
- <project path="device/redmi/rosemary" name="android_device_redmi_rosemary-1.git" remote="track" revision="lineage-19.1" />
-  
- <project path="vendor/redmi/rosemary-firmware" name="android_vendor_redmi_rosemary-firmware.git" remote="track" revision="eleven" />
-
- <project path="vendor/redmi/rosemary" name="android_vendor_redmi_rosemary.git" remote="track" revision="twelve" />
-
- <project path="kernel/redmi/rosemary" name="android_kernel_redmi_rosemary.git" remote="track" revision="lineage-19.1" />
-
- <project path="vendor/mediatek/interfaces" name="vendor_mediatek_interfaces.git" remote="track" revision="twelve" />
-
- <project path="device/mediatek/sepolicy_vndr" name="device_mediatek_sepolicy_vndr.git" remote="track" revision="twelve" />
-
- <project path="vendor/mediatek/opensource" name="vendor_mediatek-opensource.git" remote="track" revision="twelve" />
-
- <project path="hardware/xiaomi" name="kscope_hardware_xiaomi.git" remote="track" revision="sunflowerleaf" />
+ <project path="device/redmi/rosemary" 
+          name="android_device_redmi_rosemary-1.git" 
+          remote="track" 
+          revision="lineage-19.1" />
+ <project path="vendor/redmi/rosemary-firmware" 
+          name="android_vendor_redmi_rosemary-firmware.git" 
+          remote="track" 
+          revision="eleven" />
+ <project path="vendor/redmi/rosemary" 
+          name="android_vendor_redmi_rosemary.git" 
+          remote="track" 
+          revision="twelve" />
+ <project path="kernel/redmi/rosemary" 
+          name="android_kernel_redmi_rosemary.git" 
+          remote="track" 
+          revision="lineage-19.1" />
+ <project path="vendor/mediatek/interfaces" 
+          name="vendor_mediatek_interfaces.git" 
+          remote="track" 
+          revision="twelve" />
+ <project path="device/mediatek/sepolicy_vndr" 
+          name="device_mediatek_sepolicy_vndr.git" 
+          remote="track" 
+          revision="twelve" />
+ <project path="vendor/mediatek/opensource" 
+          name="vendor_mediatek-opensource.git" 
+          remote="track" 
+          revision="twelve" />
+ <project path="hardware/xiaomi" 
+          name="kscope_hardware_xiaomi.git" 
+          remote="track" 
+          revision="sunflowerleaf" />
 
 </manifest>
