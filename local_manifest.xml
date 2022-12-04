@@ -10,7 +10,7 @@
 
  <project path="device/redmi/rosemary" name="android_device_redmi_rosemary-1.git" remote="track" revision="lineage-19.1" />
   
-  <project path="vendor/redmi/rosemary-firmware" name="android_vendor_redmi_rosemary-firmware.git" remote="track" revision="eleven" />
+ <project path="vendor/redmi/rosemary-firmware" name="android_vendor_redmi_rosemary-firmware.git" remote="track" revision="eleven" />
 
  <project path="vendor/redmi/rosemary" name="android_vendor_redmi_rosemary.git" remote="track" revision="twelve" />
 
