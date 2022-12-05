@@ -5,7 +5,7 @@
 <!-- Remote & Tracking -->
 
   <remote name="track" 
-   fetch="https://github.com/uigaming1997" />
+   fetch="https://github.com/CodeChas3r" />
 
 <!-- Device Trees -->
  <project path="device/redmi/rosemary" 
