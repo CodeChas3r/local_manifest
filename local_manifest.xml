@@ -3,21 +3,21 @@
 <manifest>
 
 <!-- Remote & Tracking -->
-   <remote name="track" fetch="https://github.com" />
-   <remote name="clang" fetch="https://github.com/kdrag0n" />
+   <remote name="track" fetch="https://github.com/CodeChas3r"/>
+   <remote name="clang" fetch="https://github.com/kdrag0n"/>
    
  <!-- Device Trees -->
- <project path="device/redmi/rosemary" name="CodeChas3r/device_redmi_rosemary-mainline" remote="track" revision="thirteen" />
+ <project path="device/redmi/rosemary" name="device_redmi_rosemary-mainline" remote="track" revision="thirteen" />
  <!-- Vendor Tree -->
- <project path="vendor/redmi/rosemary" name="CodeChas3r/android_vendor_redmi_rosemary" remote="track" revision="lineage-19.1" />
+ <project path="vendor/redmi/rosemary" name="android_vendor_redmi_rosemary" remote="track" revision="lineage-19.1" />
  <!-- Kernel Tree -->
- <project path="kernel/redmi/rosemary" name="CodeChas3r/android_kernel_redmi_rosemary" remote="track" revision="lineage-20.0" />
+ <project path="kernel/redmi/rosemary" name="android_kernel_redmi_rosemary" remote="track" revision="lineage-20.0" />
  <!-- MTK -->
- <project path="device/mediatek/sepolicy_vndr" name="CodeChas3r/device_mediatek_sepolicy_vndr" remote="track" revision="thirteen" />
- <!-- <project path="device/mediatek/common" name="CodeChas3r/device_mediatek_common" remote="track" revision="thirteen" />
- <project path="vendor/mediatek/opensource" name="CodeChas3r/vendor_mediatek-opensource" remote="track" revision="thirteen" />
- <project path="vendor/mediatek/interfaces" name="CodeChas3r/vendor_mediatek_interfaces" remote="track" revision="thirteen" />
- <project path="hardware/xiaomi" name="CodeChas3r/hardware_xiaomi" remote="track" revision="thirteen" />
+ <project path="device/mediatek/sepolicy_vndr" name="device_mediatek_sepolicy_vndr" remote="track" revision="thirteen" />
+ <project path="device/mediatek/common" name="device_mediatek_common" remote="track" revision="thirteen" />
+ <project path="vendor/mediatek/opensource" name="vendor_mediatek-opensource" remote="track" revision="thirteen" />
+ <project path="vendor/mediatek/interfaces" name="vendor_mediatek_interfaces" remote="track" revision="thirteen" />
+ <project path="hardware/xiaomi" name="hardware_xiaomi" remote="track" revision="thirteen" />
  <!-- Additional -->
  <project path="prebuilts/clang/host/linux-x86/clang-proton" name="proton_clang" remote="clang" revision="master" clone-depth="1" />
  
