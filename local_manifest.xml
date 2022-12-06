@@ -3,7 +3,7 @@
 <manifest>
 
 <!-- Remote & Tracking -->
-   <remote name="track" fetch="https://github.com/Et3rnity101" />
+   <remote name="track" fetch="https://github.com" />
    <remote name="clang" fetch="https://github.com/kdrag0n" />
    
  <!-- Device Trees -->
