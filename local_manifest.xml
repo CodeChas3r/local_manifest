@@ -3,15 +3,15 @@
 <manifest>
 
 <!-- Remote & Tracking -->
-   <remote name="track" fetch="https://github.com" />
+   <remote name="track" fetch="https://github.com/Et3rnity101" />
    <remote name="clang" fetch="https://github.com/kdrag0n" />
    
  <!-- Device Trees -->
- <project path="android/device/redmi/rosemary" name="Et3rnity101/android_device_redmi_rosemary" remote="track" revision="lineage-20.0" />
+ <project path="device/redmi/rosemary" name="Et3rnity101/device_redmi_rosemary-mainline" remote="track" revision="thirteen" />
  <!-- Vendor Tree -->
- <project path="android/vendor/redmi/rosemary" name="Et3rnity101/android_vendor_redmi_rosemary" remote="track" revision="lineage-19.1" />
+ <project path="vendor/redmi/rosemary" name="Et3rnity101/android_vendor_redmi_rosemary" remote="track" revision="lineage-19.1" />
  <!-- Kernel Tree -->
- <project path="android/kernel/redmi/rosemary" name="Et3rnity101/android_kernel_redmi_rosemary" remote="track" revision="lineage-20.0" />
+ <project path="kernel/redmi/rosemary" name="Et3rnity101/android_kernel_redmi_rosemary" remote="track" revision="lineage-20.0" />
  <!-- MTK -->
  <project path="device/mediatek/sepolicy_vndr" name="Et3rnity101/device_mediatek_sepolicy_vndr" remote="track" revision="thirteen" />
  <!-- <project path="device/mediatek/common" name="Et3rnity101/device_mediatek_common" remote="track" revision="thirteen" />
