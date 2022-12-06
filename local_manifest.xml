@@ -3,14 +3,14 @@
 <manifest>
 
 <!-- Remote & Tracking -->
-   <remote name="track" fetch="https://github.com/CodeChas3r" clone-depth="1" />
+   <remote name="track" fetch="https://github.com/CodeChas3r" />
    
  <!-- Device Trees -->
- <project path="device/redmi/rosemary" name="android_device_redmi_rosemary.git" remote="track" revision="lineage-20.0" />
+ <project path="android/device/redmi/rosemary" name="android_device_redmi_rosemary.git" remote="track" revision="lineage-20.0" />
  <!-- Vendor Tree -->
- <project path="vendor/redmi/rosemary" name="android_vendor_redmi_rosemary.git" remote="track" revision="lineage-19.1" />
+ <project path="android/vendor/redmi/rosemary" name="android_vendor_redmi_rosemary.git" remote="track" revision="lineage-19.1" />
  <!-- Kernel Tree -->
- <project path="kernel/redmi/rosemary" name="android_kernel_redmi_rosemary.git" remote="track" revision="lineage-20.0" />
+ <project path="android/kernel/redmi/rosemary" name="android_kernel_redmi_rosemary.git" remote="track" revision="lineage-20.0" />
  <!-- MTK -->
  <project path="device/mediatek/sepolicy_vndr" name="device_mediatek_sepolicy_vndr.git" remote="track" revision="thirteen" />
  <project path="device/mediatek/common" name="device_mediatek_common.git" remote="track" revision="thirteen" />
