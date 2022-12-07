@@ -3,21 +3,18 @@
 
 <!-- Remote & Tracking -->
    <remote name="track" fetch="https://github.com/CodeChas3r" />
-   <remote name="arrow" fetch="https://github.com/ArrowOS-Devices" />
    
 <!-- Device Trees -->
-   <project path="android/device/redmi/rosemary" name="android_device_redmi_rosemary" remote="track" revision="lineage-19.1" />
+   <project path="device/redmi/rosemary" name="android_device_redmi_rosemary.git" remote="track" revision="derped/lineage-19.1" />
 <!-- Vendor Tree -->
-   <project path="android/vendor/redmi/rosemary" name="android_vendor_redmi_rosemary" remote="track" revision="lineage-19.1" />
+   <project path="vendor/redmi/rosemary" name="android_vendor_redmi_rosemary.git" remote="track" revision="lineage-19.1" />
 <!-- Kernel Tree -->
-   <project path="android/kernel/redmi/rosemary" name="android_kernel_redmi_rosemary" remote="track" revision="lineage-19.1" />
-<!-- MTK -->
-   <project path="device/mediatek/sepolicy_vndr" name="device_mediatek_sepolicy_vndr" remote="track" revision="twelve" />
-   <project path="device/mediatek/common" name="device_mediatek_common" remote="track" revision="twelve" />
-   <project path="vendor/mediatek/opensource" name="vendor_mediatek-opensource" remote="track" revision="twelve" />
-   <project path="vendor/mediatek/interfaces" name="vendor_mediatek_interfaces" remote="track" revision="twelve" />
-   <project path="hardware/xiaomi" name="hardware_xiaomi" remote="track" revision="twelve" />
-<!-- Additional -->
-   <project path="prebuilts/clang/host/linux-x86/clang-r416183b1" name="android_prebuilts_clang_host_linux-x86_clang-r416183b1" remote="arrow" revision="arrow-11.0" />
- 
+   <project path="kernel/redmi/rosemary" name="android_kernel_redmi_rosemary.git" remote="track" revision="lineage-19.1" />
+<!-- Mediatek -->
+   <project path="device/mediatek/sepolicy_vndr" name="device_mediatek_sepolicy_vndr.git" remote="track" revision="twelve" />
+   <project path="device/mediatek/common" name="device_mediatek_common.git" remote="track" revision="twelve" />
+   <project path="vendor/mediatek/opensource" name="vendor_mediatek-opensource.git" remote="track" revision="twelve" />
+   <project path="vendor/mediatek/interfaces" name="vendor_mediatek_interfaces.git" remote="track" revision="twelve" />
+   <project path="hardware/xiaomi" name="hardware_xiaomi.git" remote="track" revision="twelve" />
+
 </manifest>
