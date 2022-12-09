@@ -2,10 +2,10 @@
 <manifest>
    
    <!-- Remote -->
-   <remote name="Arnav18" fetch+"https://github.com/Arnav18-en" />
+
    <remote name="track" fetch="https://github.com/CodeChas3r" />
    <!-- Device Trees -->
-   <project path="device/redmi/rosemary" name="android_device_redmi_rosemary" remote="Arnav18" revision="pixelexperience/twelve" />
+   <project path="device/redmi/rosemary" name="android_device_redmi_rosemary" remote="track" revision="pixelexperience/twelve" />
    <!-- Vendor Tree -->
    <project path="vendor/redmi/rosemary" name="android_vendor_redmi_rosemary" remote="track" revision="lineage-19.1" />
    <!-- Kernel Tree -->
