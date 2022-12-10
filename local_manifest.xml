@@ -1,22 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<manifest>
-   
-   <!-- Remote -->
 
+<manifest>
+   <!-- Remote -->
    <remote name="track" fetch="https://github.com/CodeChas3r" />
-   <!-- Device Trees -->
-   <project path="device/redmi/rosemary" name="android_device_redmi_rosemary" remote="track" revision="pixelexperience/twelve" />
-   <!-- Vendor Tree -->
-   <project path="vendor/redmi/rosemary" name="android_vendor_redmi_rosemary" remote="track" revision="lineage-19.1" />
+   
+   <!-- Device Tree -->
+   <project path="device/redmi/rosemary" 
+            name="android_device_redmi_rosemary.git" 
+            remote="track" 
+            revision="awaken-12.1" />
    <!-- Kernel Tree -->
-   <project path="kernel/redmi/rosemary" name="android_kernel_redmi_rosemary" remote="track" revision="lineage-19.1" />
-   <!-- MTK -->
-   <project path="device/mediatek/sepolicy_vndr" name="device_mediatek_sepolicy_vndr" remote="track" revision="twelve" />
-   <project path="device/mediatek/common" name="device_mediatek_common" remote="track" revision="twelve" />
+   <project path="kernel/redmi/rosemary" 
+            name="android_kernel_redmi_rosemary.git" 
+            remote="track" 
+            revision="awaken-12.1" />
+   <!-- Vendor Tree -->
+   <project path="vendor/redmi/rosemary" 
+            name="android_vendor_redmi_rosemary.git" 
+            remote="track" 
+            revision="awaken-12.1" />
+   <!-- Firmware Tree -->
+   <project path="device/redmi/rosemary-firmware" 
+            name="android_vendor_redmi_rosemary-firmware.git" 
+            remote="track" 
+            revision="eleven" />
    <project path="vendor/mediatek/opensource" name="vendor_mediatek-opensource" remote="track" revision="twelve" />
    <project path="vendor/mediatek/interfaces" name="vendor_mediatek_interfaces" remote="track" revision="twelve" />
+   <project path="device/mediatek/common" name="device_mediatek_common" remote="track" revision="twelve" />
+   <project path="device/mediatek/sepolicy_vndr" name="device_mediatek_sepolicy_vndr" remote="track" revision="twelve" />
    <project path="hardware/xiaomi" name="kscope_hardware_xiaomi" remote="track" revision="sunflowerleaf" />
-   <!-- Additional 
-   <project path="prebuilts/clang/host/linux-x86/clang-r416183b1" name="PixelBoot/android_prebuilts_clang_host_linux-x86_clang-r416183b1" remote="clang" revision="arrow-11.0" clone-depth="1" /> -->
+   <!-- Extras -->
+    <project path="prebuilts/clang/host/linux-x86/clang-r416183b1" name="android_prebuilts_clang_host_linux-x86_clang-r416183b1" remote="track" revision="arrow-11.0" />
    
 </manifest>
