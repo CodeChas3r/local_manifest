@@ -2,7 +2,7 @@
 
 <manifest>
    <!-- Remote -->
-   <remote name="track" fetch="https://github.com/CodeChas3r" />
+   <remote name="track" fetch="https://github.com/CodeChas3r"/>
    
    <!-- Device Tree -->
    <project path="device/redmi/rosemary" 
@@ -21,7 +21,7 @@
             revision="lineage-19.1" />
    <!-- Firmware Tree -->
    <project path="device/redmi/rosemary-firmware" 
-            name="android_vendor_redmi_rosemary-firmware.git" 
+            name="android_vendor_redmi_rosemary-firmware" 
             remote="track" 
             revision="eleven" />
    <project path="vendor/mediatek/opensource" name="vendor_mediatek-opensource" remote="track" revision="twelve" />
