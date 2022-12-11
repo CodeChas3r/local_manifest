@@ -21,10 +21,10 @@
             remote="track" 
             revision="lineage-19.1" />
    <!-- Firmware Tree -->
-   <!--<project path="device/redmi/rosemary-firmware" 
+   <project path="device/redmi/rosemary-firmware" 
             name="android_vendor_redmi_rosemary-firmware" 
             remote="track" 
-            revision="eleven" /> -->
+            revision="lineage-20.0" />
    <!-- MediaTek -->
    <project path="vendor/mediatek/opensource" name="vendor_mediatek-opensource" remote="track" revision="twelve" />
    <project path="vendor/mediatek/interfaces" name="vendor_mediatek_interfaces" remote="track" revision="twelve" />
