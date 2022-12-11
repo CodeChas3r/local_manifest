@@ -8,7 +8,7 @@
    <project path="device/redmi/rosemary" 
             name="android_device_redmi_rosemary.git" 
             remote="track" 
-            revision="lineage-19.1" />
+            revision="kscope/sunflowerleaf" />
    <!-- Kernel Tree -->
    <project path="kernel/redmi/rosemary" 
             name="android_kernel_redmi_rosemary.git" 
