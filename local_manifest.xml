@@ -21,7 +21,7 @@
             remote="track" 
             revision="lineage-19.1" />
    <!-- Firmware Tree -->
-   <project path="device/redmi/rosemary-firmware" 
+   <project path="vendor/redmi/rosemary-firmware" 
             name="android_vendor_redmi_rosemary-firmware" 
             remote="track" 
             revision="lineage-19.1" />
