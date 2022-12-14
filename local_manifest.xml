@@ -6,7 +6,7 @@
    
    <!-- Device Tree -->
    <project path="device/redmi/rosemary" 
-            name="android_device_redmi_rosemary" 
+            name="device_redmi_rosemary" 
             remote="track" 
             revision="lineage-19.1" />
    <!-- Kernel Tree -->
