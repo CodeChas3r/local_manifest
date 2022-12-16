@@ -7,19 +7,19 @@
    
    <!-- Device Tree -->
    <project path="device/redmi/rosemary" 
-            name="device_redmi_rosemary.git" 
+            name="device_redmi_rosemary" 
             remote="track" 
             revision="havoc-eleven" />
    <!-- Kernel Tree -->
    <project path="kernel/redmi/rosemary" 
-            name="kernel_redmi_rosemary-1.git" 
+            name="kernel_redmi_rosemary-1" 
             remote="track" 
             revision="android-12-stable" />
    <!-- Vendor Tree -->
    <project path="vendor/redmi/rosemary" 
-            name="android_vendor_redmi_rosemary.git" 
+            name="android_vendor_redmi_rosemary" 
             remote="track" 
-            revision="lineage-18.1"
+            revision="lineage-18.1" />
    <!-- Hardware -->
    <project path="vendor/mediatek/opensource" name="vendor_mediatek-opensource" remote="track" revision="eleven" />
    <project path="vendor/mediatek/interfaces" name="vendor_mediatek_interfaces" remote="track" revision="eleven" />
