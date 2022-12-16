@@ -14,19 +14,17 @@
    <project path="kernel/redmi/rosemary" 
             name="kernel_redmi_rosemary" 
             remote="woomymy" 
-            revision="android-12-stable"
-            clone-depth="1" />
+            revision="android-12-stable" />
    <!-- Vendor Tree -->
    <project path="vendor/redmi/rosemary" 
             name="android_vendor_redmi_rosemary" 
             remote="woomymy" 
             revision="lineage-18.1"
-            clone-depth="1" />
    <!-- Hardware -->
    <project path="vendor/mediatek/opensource" name="vendor_mediatek-opensource" remote="codechas3r" revision="eleven" />
    <project path="vendor/mediatek/interfaces" name="vendor_mediatek_interfaces" remote="codechas3r" revision="eleven" />
    <project path="device/mediatek/sepolicy" name="device_mediatek_sepolicy" remote="codechas3r" revision="dumaloo-release" />
    <!-- Extras -->
-   <project path="prebuilts/clang/host/linux-x86/clang-r416183b1" name="android_prebuilts_clang_host_linux-x86_clang-r416183b1" remote="track" revision="arrow-11.0" clone-depth="1"/>
+   <project path="prebuilts/clang/host/linux-x86/clang-r416183b1" name="android_prebuilts_clang_host_linux-x86_clang-r416183b1" remote="track" revision="arrow-11.0" />
    
 </manifest>
