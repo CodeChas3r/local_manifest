@@ -2,7 +2,7 @@
 <manifest>
    <!-- Remote -->
    <remote name="codechas3r" fetch="https://github.com/CodeChas3r"/>
-   <remote name="woomymy" fetch ="https://github.com/Woomymy" />
+   <remote name="woomymy" fetch="https://github.com/Woomymy" />
    
    
    <!-- Device Tree -->
