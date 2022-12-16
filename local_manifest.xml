@@ -14,7 +14,7 @@
    <project path="kernel/redmi/rosemary" 
             name="android_kernel_redmi_rosemary" 
             remote="track" 
-            revision="lineage-18.1" />
+            revision="lineage-19.1" />
    <!-- Vendor Tree -->
    <project path="vendor/redmi/rosemary" 
             name="android_vendor_redmi_rosemary" 
