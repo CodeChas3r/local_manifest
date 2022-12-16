@@ -15,7 +15,7 @@
             name="kernel_redmi_rosemary" 
             remote="woomymy" 
             revision="android-12-stable"
-            clone-depth+"1" />
+            clone-depth="1" />
    <!-- Vendor Tree -->
    <project path="vendor/redmi/rosemary" 
             name="vendor_redmi_rosemary" 
