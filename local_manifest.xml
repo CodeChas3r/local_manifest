@@ -17,7 +17,7 @@
             revision="lineage-18.1" />
    <!-- Vendor Tree -->
    <project path="vendor/redmi/rosemary" 
-            name="proprietary_vendor_redmi_rosemary" 
+            name="android_vendor_redmi_rosemary" 
             remote="track" 
             revision="lineage-18.1" />
    <!-- Hardware -->
