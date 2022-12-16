@@ -25,10 +25,6 @@
    <project path="vendor/mediatek/interfaces" name="vendor_mediatek_interfaces" remote="track" revision="eleven" />
    <project path="device/mediatek/sepolicy" name="device_mediatek_sepolicy" remote="track" revision="dumaloo-release" />
    <!-- Extras -->
-   <!--<remove-project name="frameworks/opt/telephony" />
-   <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="track" revision="eleven" />
-   <remove-project name="platform/frameworks/opt/net/ims" />
-   <project path="frameworks/opt/net/ims" name="android_frameworks_opt_net_ims" remote="track" revision="eleven" />-->
    <project path="prebuilts/clang/host/linux-x86/clang-r416183b1" name="android_prebuilts_clang_host_linux-x86_clang-r416183b1" remote="track" revision="arrow-11.0" />
    
 </manifest>
