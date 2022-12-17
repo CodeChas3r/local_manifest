@@ -3,7 +3,6 @@
 <manifest>
    <!-- Remote -->
    <remote name="track" fetch="https://github.com/CodeChas3r"/>
-   <remote name="ImSurajxD" fetch="https://gitlab.com/ImSurajxD" />
    
    <!-- Device Tree -->
    <project path="device/redmi/rosemary" 
@@ -14,7 +13,7 @@
    <project path="kernel/redmi/rosemary" 
             name="android_kernel_redmi_rosemary" 
             remote="track" 
-            revision="lineage-19.1" />
+            revision="lineage-18.1" />
    <!-- Vendor Tree -->
    <project path="vendor/redmi/rosemary" 
             name="android_vendor_redmi_rosemary" 
@@ -25,6 +24,7 @@
    <project path="vendor/mediatek/interfaces" name="vendor_mediatek_interfaces" remote="track" revision="eleven" />
    <project path="device/mediatek/sepolicy" name="device_mediatek_sepolicy" remote="track" revision="dumaloo-release" />
    <!-- Extras -->
+   <project path="prebuilts/clang/host/linux-x86/proton-clang" name="proton-clang" remote="track" revision="master" clone-depth="1" />
    <!--<project path="prebuilts/clang/host/linux-x86/clang-r416183b1" name="android_prebuilts_clang_host_linux-x86_clang-r416183b1" remote="track" revision="arrow-11.0" />-->
-   <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="ImSurajxD" revision="master" clone-depth="1" />
+   <!--<project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="ImSurajxD" revision="master" clone-depth="1" />-->
 </manifest>
