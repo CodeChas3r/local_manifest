@@ -8,7 +8,7 @@
    <project path="device/redmi/rosemary" 
             name="android_device_redmi_rosemary" 
             remote="track" 
-            revision="pixel-12" />
+            revision="pixelos-12" />
    <!-- Kernel Tree -->
    <project path="kernel/redmi/rosemary" 
             name="android_kernel_redmi_rosemary" 
