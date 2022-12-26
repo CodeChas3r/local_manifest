@@ -11,9 +11,9 @@
             revision="derpfest-12" />
    <!-- Kernel Tree -->
    <project path="kernel/redmi/rosemary" 
-            name="android_kernel_redmi_rosemary" 
+            name="kernel_redmi_rosemary" 
             remote="track" 
-            revision="lineage-19.1" />
+            revision="thirteen" />
    <!-- Vendor Tree -->
    <project path="vendor/redmi/rosemary" 
             name="android_vendor_redmi_rosemary" 
@@ -21,7 +21,7 @@
             revision="lineage-19.1" />
    <!-- Firmware Tree -->
    <project path="device/redmi/rosemary-firmware" 
-            name="device_redmi_rosemary-firmware" 
+            name="vendor_redmi_rosemary-firmware" 
             remote="track" 
             revision="thirteen" />
    <project path="vendor/mediatek/opensource" name="vendor_mediatek-opensource" remote="track" revision="twelve" />
