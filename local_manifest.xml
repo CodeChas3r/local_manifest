@@ -24,7 +24,7 @@
             clone-depth="1" />
    <!-- Firmware Tree -->
    <project path="vendor/redmi/rosemary-firmware" 
-            name="android_device_redmi_rosemary-firmware" 
+            name="vendor_redmi_rosemary-firmware" 
             remote="track" 
             revision="eleven" />
    
