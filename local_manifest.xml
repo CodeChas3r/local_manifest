@@ -3,7 +3,7 @@
 <manifest>
    <!-- Remote -->
    <remote name="track" fetch="https://github.com/CodeChas3r" />
-   <remote name="derp" fetch="https://github.com/DerpFest-AOSP" />
+   <!--<remote name="derp" fetch="https://github.com/DerpFest-AOSP" />-->
    <remote name="blobs" fetch="https://gitlab.pixelexperience.org/android/vendor-blobs" />
    
    <!-- Device Tree -->
@@ -28,7 +28,7 @@
             remote="track" 
             revision="eleven" />
    
-   <remove-project name="DerpFest-AOSP/platform/build" />
+   <!--<remove-project name="DerpFest-AOSP/platform/build" />
    <project path="build/make" name="platform/build" remote="derp" revision="12.1" clone-depth="1" >
     <copyfile src="core/root.mk" dest="Makefile" />
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
@@ -37,7 +37,7 @@
     <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
     <linkfile src="target" dest="build/target" />
     <linkfile src="tools" dest="build/tools" />
-  </project>
+  </project>-->
    
    <project path="vendor/mediatek/opensource" name="vendor_mediatek-opensource" remote="track" revision="twelve" />
    <project path="vendor/mediatek/interfaces" name="vendor_mediatek_interfaces" remote="track" revision="twelve" />
