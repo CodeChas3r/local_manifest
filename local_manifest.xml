@@ -3,6 +3,8 @@
 <manifest>
    <!-- Remote -->
    <remote name="track" fetch="https://github.com/CodeChas3r" />
+   <remote name="derp" fetch="https://github.com/DerpFest-AOSP" />
+   <remote name="blobs" fetch="https://gitlab.pixelexperience.org/android/vendor-blobs" />
    
    <!-- Device Tree -->
    <project path="device/redmi/rosemary" 
@@ -16,20 +18,33 @@
             revision="lineage-19.1" />
    <!-- Vendor Tree -->
    <project path="vendor/redmi/rosemary" 
-            name="android_vendor_redmi_rosemary" 
-            remote="track" 
-            revision="lineage-19.1" />
+            name="vendor_redmi_rosemary" 
+            remote="blobs" 
+            revision="thirteen" 
+            clone-depth="1" />
    <!-- Firmware Tree -->
    <project path="device/redmi/rosemary-firmware" 
-            name="vendor_redmi_rosemary-firmware" 
+            name="android_device_redmi_rosemary-firmware" 
             remote="track" 
-            revision="thirteen" />
+            revision="eleven" />
+   
+   <remove-project name="DerpFest-AOSP/platform/build" />
+   <project path="build/make" name="platform/build" remote="derp" revision="12.1" clone-depth="1" >
+    <copyfile src="core/root.mk" dest="Makefile" />
+    <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
+    <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
+    <linkfile src="core" dest="build/core" />
+    <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
+    <linkfile src="target" dest="build/target" />
+    <linkfile src="tools" dest="build/tools" />
+  </project>
+   
    <project path="vendor/mediatek/opensource" name="vendor_mediatek-opensource" remote="track" revision="twelve" />
    <project path="vendor/mediatek/interfaces" name="vendor_mediatek_interfaces" remote="track" revision="twelve" />
    <project path="device/mediatek/common" name="device_mediatek_common" remote="track" revision="twelve" />
    <project path="device/mediatek/sepolicy_vndr" name="device_mediatek_sepolicy_vndr" remote="track" revision="twelve" />
    <project path="hardware/xiaomi" name="kscope_hardware_xiaomi" remote="track" revision="sunflowerleaf" />
    <!-- Extras -->
-   <project path="prebuilts/clang/host/linux-x86/clang-r416183b1" name="android_prebuilts_clang_host_linux-x86_clang-r416183b1" remote="track" revision="arrow-11.0" />
+   <project path="prebuilts/clang/host/linux-x86/clang-r416183b1" name="android_prebuilts_clang_host_linux-x86_clang-r416183b1" remote="track" revision="arrow-11.0" clone-depth="1" />
    
 </manifest>
