@@ -6,9 +6,9 @@
    
    <!-- Device Tree -->
    <project path="device/redmi/rosemary" 
-            name="android_device_redmi_rosemary" 
+            name="device_redmi_rosemary" 
             remote="track" 
-            revision="derpfest-12" />
+            revision="derpfest-12.1" />
    <!-- Kernel Tree -->
    <project path="kernel/redmi/rosemary" 
             name="kernel_redmi_rosemary" 
@@ -24,12 +24,14 @@
             name="vendor_redmi_rosemary-firmware" 
             remote="track" 
             revision="eleven" />
-   <!-- Extras -->
+   <!-- Hardware -->
    <project path="vendor/mediatek/opensource" name="vendor_mediatek-opensource" remote="track" revision="twelve" />
    <project path="vendor/mediatek/interfaces" name="vendor_mediatek_interfaces" remote="track" revision="twelve" />
    <project path="device/mediatek/common" name="device_mediatek_common" remote="track" revision="twelve" />
    <project path="device/mediatek/sepolicy_vndr" name="device_mediatek_sepolicy_vndr" remote="track" revision="twelve" />
    <project path="hardware/xiaomi" name="kscope_hardware_xiaomi" remote="track" revision="sunflowerleaf" />
+   <!-- Extras -->
+   <project path="frameworks/opt/net/ims" name="kscope_frameworks_opt_net_ims" remote="track" revision="sunflowerleaf" />
    <!-- Clang -->
    <project path="prebuilts/clang/host/linux-x86/clang-r416183b1" name="android_prebuilts_clang_host_linux-x86_clang-r416183b1" remote="track" revision="arrow-11.0" clone-depth="1" />
    
