@@ -3,6 +3,7 @@
 <manifest>
    <!-- Remote -->
    <remote name="track" fetch="https://github.com/CodeChas3r" />
+   <remote name="blobs" fetch="https://gitlab.pixelexperience.org/android/vendor-blobs" />
    
    <!-- Device Tree -->
    <project path="device/redmi/rosemary" 
@@ -16,9 +17,10 @@
             revision="lineage-19.1" />
    <!-- Vendor Tree -->
    <project path="vendor/redmi/rosemary" 
-            name="android_vendor_redmi_rosemary" 
-            remote="track" 
-            revision="lineage-19.1" />
+            name="vendor_redmi_rosemary" 
+            remote="blobs" 
+            revision="thirteen" 
+            clone-depth="1" />
    <!-- Firmware Tree -->
    <project path="vendor/redmi/rosemary-firmware" 
             name="vendor_redmi_rosemary-firmware" 
