@@ -6,7 +6,7 @@
   
    <!-- Device Tree -->
    <project path="device/redmi/rosemary" 
-            name="android_device_redmi_rosemary" 
+            name="device_redmi_rosemary" 
             remote="track" 
             revision="derpfest-12.1" />
    <!-- Kernel Tree -->
@@ -16,7 +16,7 @@
             revision="lineage-19.1" />
    <!-- Vendor Tree -->
    <project path="vendor/redmi/rosemary" 
-            name="android_vendor_redmi_rosemary" 
+            name="vendor_redmi_rosemary" 
             remote="track" 
             revision="lineage-19.1" />
    <!-- Firmware Tree -->
