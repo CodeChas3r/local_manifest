@@ -29,7 +29,7 @@
    <project path="vendor/mediatek/interfaces" name="vendor_mediatek_interfaces" remote="track" revision="twelve" />
    <project path="device/mediatek/common" name="device_mediatek_common" remote="track" revision="twelve" />
    <project path="device/mediatek/sepolicy_vndr" name="device_mediatek_sepolicy_vndr" remote="track" revision="twelve" />
-   <project path="hardware/xiaomi" name="kscope_hardware_xiaomi" remote="track" revision="sunflowerleaf" />
+   <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="track" revision="lineage-19.1" />
    <!-- Extras -->
    <remove-project name="frameworks_opt_net_ims" />
    <project path="frameworks/opt/net/ims" name="kscope_frameworks_opt_net_ims" remote="track" revision="sunflowerleaf" />
