@@ -33,8 +33,8 @@
    <!-- Extras -->
    <remove-project name= "platform/frameworks/net/opt/ims" />
    <remove-project name= "platform/frameworks/opt/telephony" />
-   <project path="frameworks/net/opt/ims" name="kscope_frameworks_net_opt_ims" remote="track" revision="sunflowerleaf" />
-   <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="track" revision="twelve-L" />
+   <project path="frameworks/net/opt/ims" name="kscope_frameworks_net_opt_ims" remote="track" revision="sunflowerleaf" clone-depth="1"/>
+   <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="track" revision="twelve-L" clone-depth="1"/>
    <!-- Clang -->
    <project path="prebuilts/clang/host/linux-x86/clang-r416183b1" name="android_prebuilts_clang_host_linux-x86_clang-r416183b1" remote="track" revision="arrow-11.0" clone-depth="1" />
    
