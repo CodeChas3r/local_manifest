@@ -8,7 +8,7 @@
    <project path="device/redmi/rosemary" 
             name="device_redmi_rosemary" 
             remote="track" 
-            revision="kscope/sunflowerleaf" />
+            revision="sunflowerleaf" />
    <!-- Kernel Tree -->
    <project path="kernel/redmi/rosemary" 
             name="kernel_redmi_rosemary" 
