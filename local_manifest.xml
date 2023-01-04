@@ -7,7 +7,7 @@
    
    <!-- Extras -->
    <remove-project name= "platform/frameworks/opt/net/ims" />
-   <project path="frameworks/opt/net/ims" name="CodeChas3r/kscope_frameworks_opt_net_ims" remote="hub" revision="sunflowerleaf" clone-depth="1"/>
+   <project path="frameworks/opt/net/ims" name="CodeChas3r/android_frameworks_opt_net_ims" remote="hub" revision="twelve-L" clone-depth="1"/>
    <remove-project name= "android_frameworks_opt_telephony" />
    <project path="frameworks/opt/telephony" name="CodeChas3r/android_frameworks_opt_telephony" remote="hub" revision="twelve-L" clone-depth="1"/>
   
@@ -15,12 +15,12 @@
    <project path="device/redmi/rosemary" 
             name="device_redmi_rosemary" 
             remote="track" 
-            revision="sunflowerleaf" />
+            revision="cipheros-12" />
    <!-- Kernel Tree -->
    <project path="kernel/redmi/rosemary" 
             name="kernel_redmi_rosemary" 
             remote="track" 
-            revision="sunflowerleaf" />
+            revision="lineage-19.1" />
    <!-- Vendor Tree -->
    <project path="vendor/redmi/rosemary" 
             name="vendor_redmi_rosemary" 
