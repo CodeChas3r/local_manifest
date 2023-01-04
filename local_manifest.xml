@@ -33,7 +33,7 @@
    <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="track" revision="lineage-19.1" />
    <!-- Extras -->
    <remove-project name= "android_frameworks_net_opt_ims" />
-   <remove-project name= "android_frameworks_opt_telephony" />
+   <remove-project name= "frameworks_opt_telephony" />
    <project path="frameworks/net/opt/ims" name="CodeChas3r/kscope_frameworks_net_opt_ims" remote="hub" revision="sunflowerleaf" clone-depth="1"/>
    <project path="frameworks/opt/telephony" name="CodeChas3r/android_frameworks_opt_telephony" remote="hub" revision="twelve-L" clone-depth="1"/>
    <!-- Clang -->
