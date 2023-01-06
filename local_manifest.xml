@@ -6,7 +6,7 @@
    <!--<remote name="hub" fetch="https://github.com" />-->
    
    <!-- Extras -->
-       <!--<remove-project name= "device_mediatek_sepolicy_vndr" />-->
+   <!--<remove-project name= "device_mediatek_sepolicy_vndr" />-->
    <!--<remove-project name= "platform/frameworks/opt/net/ims" />
    <project path="frameworks/opt/net/ims" name="CodeChas3r/android_frameworks_opt_net_ims" remote="hub" revision="twelve-L" clone-depth="1"/>
    <remove-project name= "android_frameworks_opt_telephony" />
