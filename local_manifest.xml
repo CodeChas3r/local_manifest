@@ -3,12 +3,7 @@
 <manifest>
    <!-- Remote -->
    <remote name="track" fetch="https://github.com/CodeChas3r" />
-   <remote name="hub" fetch="https://github.com" />
-   
-   <!-- Extras -->
-   <remove-project name= "android_frameworks_base" />
-   <project path="frameworks/base" name="CodeChas3r/android_frameworks_base" remote="hub" revision="twelve-L" clone-depth="1"/>
-  
+ 
    <!-- Device Tree -->
    <project path="device/redmi/rosemary" 
             name="device_redmi_rosemary" 
@@ -23,7 +18,7 @@
    <project path="vendor/redmi/rosemary" 
             name="vendor_redmi_rosemary" 
             remote="track" 
-            revision="lineage-19.1" />
+            revision="cipheros-12" />
    <!-- Firmware Tree -->
    <project path="vendor/redmi/rosemary-firmware" 
             name="vendor_redmi_rosemary-firmware" 
