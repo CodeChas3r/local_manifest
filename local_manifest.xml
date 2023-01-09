@@ -8,7 +8,7 @@
    <project path="device/redmi/rosemary" 
             name="device_redmi_rosemary" 
             remote="track" 
-            revision="cipheros-12" />
+            revision="crdroidandroid-12.1" />
    <!-- Kernel Tree -->
    <project path="kernel/redmi/rosemary" 
             name="kernel_redmi_rosemary" 
@@ -18,7 +18,7 @@
    <project path="vendor/redmi/rosemary" 
             name="vendor_redmi_rosemary" 
             remote="track" 
-            revision="cipheros-12" />
+            revision="lineage-19.1" />
    <!-- Firmware Tree -->
    <project path="vendor/redmi/rosemary-firmware" 
             name="vendor_redmi_rosemary-firmware" 
@@ -28,8 +28,8 @@
    <project path="vendor/mediatek/opensource" name="vendor_mediatek-opensource" remote="track" revision="twelve" />
    <project path="vendor/mediatek/interfaces" name="vendor_mediatek_interfaces" remote="track" revision="twelve" />
    <project path="device/mediatek/common" name="device_mediatek_common" remote="track" revision="twelve" />
-   <!--<project path="device/mediatek/sepolicy_vndr" name="device_mediatek_sepolicy_vndr" remote="track" revision="twelve" />-->
-   <!--<project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="track" revision="lineage-19.1" />-->
+   <project path="device/mediatek/sepolicy_vndr" name="device_mediatek_sepolicy_vndr" remote="track" revision="twelve" />-->
+   <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="track" revision="lineage-19.1" />-->
    <!-- Clang -->
    <project path="prebuilts/clang/host/linux-x86/clang-r416183b1" name="android_prebuilts_clang_host_linux-x86_clang-r416183b1" remote="track" revision="arrow-11.0" clone-depth="1" />
    
