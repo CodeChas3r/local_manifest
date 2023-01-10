@@ -3,7 +3,6 @@
 <manifest>
    <!-- Remote -->
    <remote name="track" fetch="https://github.com/CodeChas3r" />
-   <remote name="hub" fetch="https://github.com" />
  
    <!-- Device Tree -->
    <project path="device/redmi/rosemary" 
@@ -33,9 +32,9 @@
    <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="track" revision="lineage-19.1" />
    <!-- Extras -->
    <project-remove name="platform/frameworks/opt/net/ims"/>
-   <project path="frameworks/opt/net/ims" name="CipherOS/android_frameworks_opt_net_ims" remote="hub" revision="twelve-L" clone-depth="1" />
+   <project path="frameworks/opt/net/ims" name="android_frameworks_opt_net_ims" remote="track" revision="twelve-L" clone-depth="1" />
    <project-remove name="android_frameworks_opt_telephony" />
-   <project path="frameworks/opt/telephony" name="CipherOS/android_frameworks_opt_telephony" remote="hub" revision="twelve-L" clone-depth="1" />
+   <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="track" revision="twelve-L" clone-depth="1" />
    <!-- Clang -->
    <project path="prebuilts/clang/host/linux-x86/clang-r416183b1" name="android_prebuilts_clang_host_linux-x86_clang-r416183b1" remote="track" revision="arrow-11.0" clone-depth="1" />
    
