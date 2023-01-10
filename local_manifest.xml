@@ -5,7 +5,7 @@
    <remote name="track" fetch="https://github.com/CodeChas3r" />
 
    <!-- Extras -->
-   <project-remove name="platform/frameworks/opt/net/ims"/>
+   <project-remove name="android/frameworks/opt/net/ims"/>
    <project path="frameworks/opt/net/ims" name="android_frameworks_opt_net_ims" remote="track" revision="twelve-L" clone-depth="1" />
    <project-remove name="android_frameworks_opt_telephony" />
    <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="track" revision="twelve-L" clone-depth="1" />
