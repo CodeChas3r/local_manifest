@@ -31,7 +31,7 @@
    <project path="device/mediatek/sepolicy_vndr" name="device_mediatek_sepolicy_vndr" remote="track" revision="twelve" />
    <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="track" revision="lineage-19.1" />
    <!-- Extras -->
-   <project-remove name="platform/frameworks/opt/net/ims"/>
+   <project-remove name="platform_frameworks_opt_net_ims"/>
    <project path="frameworks/opt/net/ims" name="android_frameworks_opt_net_ims" remote="track" revision="twelve-L" clone-depth="1" />
    <project-remove name="android_frameworks_opt_telephony" />
    <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="track" revision="twelve-L" clone-depth="1" />
