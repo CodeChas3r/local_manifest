@@ -3,7 +3,7 @@
 <manifest>
    <!-- Remote -->
    <remote name="track" fetch="https://github.com/CodeChas3r" />
-   <remote name="clang" fetch="https://github.com/kdrag0n" />
+   <!--<remote name="clang" fetch="https://github.com/kdrag0n" />-->
    <remote name="hub" fetch="https://github.com" />
    <!-- Extras -->
    <remove-project name="crdroidandroid/android_frameworks_opt_net_ims"/>
